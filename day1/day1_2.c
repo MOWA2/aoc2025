@@ -10,7 +10,7 @@ int32_t main(int32_t argc, char* argv[]) {
     uint32_t reached_O_count = 0;
 
     /* Open input file */
-    FILE* input = fopen("input.txt", "r+");
+    FILE* input = fopen("input.txt", "r");
     assert(input != NULL);
 
     /* Read the file entirely */
