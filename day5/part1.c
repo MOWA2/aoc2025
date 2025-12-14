@@ -5,8 +5,6 @@
 #include "stdbool.h"
 
 #include "assert.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 typedef struct Range {
     uint64_t min;
